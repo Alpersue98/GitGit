@@ -4,4 +4,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "You are Perfekt!😴"
+      - name: This is a Pipeline showcase
+        run: echo "You are Perfekt!😴"
