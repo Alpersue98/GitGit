@@ -8,3 +8,7 @@ jobs:
         run: echo "You are Perfekt!😴"
       - uses: actions/checkout@v2
         name: Checkout code
+      - run: npm install
+        name: Install NPM packages
+      - run: node index.js
+        name: Run application
